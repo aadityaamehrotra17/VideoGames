@@ -1,27 +1,19 @@
-# VideoGames
-## Repository for Classic and Modern Video Games
+# Bat Blitz
+## A modern take on the timeless 'Flappy Bird' game, with cheatcodes and multiple game modes.
 
-Welcome to the VideoGames repository! This repository is dedicated to hosting a collection of classic and modern video games, ranging from simple text-based adventures to complex graphical games.
+**Run the Game**
 
-### Games
-- **batBlitz**: A modern take on the timeless 'Flappy Bird' game, with cheatcodes and multiple game modes.
+Run the 'batBlitz.py' file on your system.
 
-### Getting Started
+**Controls**
 
-**Clone the Repository**
-```bash
-git clone https://github.com/aadityaamehrotra17/VideoGames.git
-```
+![Controls Screenshot](extra/controls.png)
 
-**Navigate to the Game Branch**
-```bash
-git checkout branchName
-```
-Make sure to replace 'branchName' with the actual game name (eg: batBlitz).
+**Additional Information**
 
-**Run a Game**
-
-Follow the instructions in each game's README file to run it on your system.
+- High scores are stored in 'files/leaderboard.txt'. These can be edited using any text editor, which will then be reflected in the game.
+- Saved data is stored in 'files/save.dat' in binary format. Only one game can be saved at any given time. New saves overwrite pre-existing data.
+- One can customise the gameplay by replacing the images in the 'images' folder (making sure not to change the image names).
 
 **Contact**
 
